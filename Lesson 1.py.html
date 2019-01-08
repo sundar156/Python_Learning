@@ -1,0 +1,74 @@
+
+# coding: utf-8
+
+# In[2]:
+
+
+school = "isb"
+print('i' in school)
+
+
+# In[21]:
+
+
+x='confusing'
+y='strings'
+strr1 = str(x[:3])
+strr2=str(y[:-3])
+#print(strr1.capitalize())
+strr3=str(x)
+print(strr2 +x[3:] + " " + strr1 + y[3:])
+print(strr3[2])
+#strr3[2]='p'
+
+
+# In[145]:
+
+
+list1=['sundar','charan']
+list1[0]='prem'
+print(list1)
+cc=list(list1[0])
+cc[2]='s'
+ff=str(cc)
+print(cc)
+print('df'.join(cc))
+
+
+#  (For Loop ,While Loop and Reverse Function)
+
+# In[144]:
+
+
+#sorted list
+stri ='python'
+strlist=list(stri)
+#strlist.reverse()
+i=len(strlist)
+xx=''
+f=''
+for v in range(i):
+    # print(i)
+    f = f + (strlist[i-1])
+    #print(f)
+    i=i-1
+print('Using For loop : ' + f)
+
+i=len(strlist)    
+while (i > 0):
+    #print(strlist[i-1])
+    xx = xx + (strlist[i-1])
+    #print(xx)
+    i = i - 1
+print('using While Loop : '+ xx) 
+g = list(stri)
+g.reverse()
+print('Using Reverse function : ' + ''.join(g))
+
+
+
+#sun=sorted(strlist)
+#print(xx)
+#sun=strlist
+#print(''.join(sun))
+
