@@ -1,0 +1,17 @@
+the iris(the flower)dataset attached contains five variables namely,
+1.SepalLength(Cm)
+2.SepalWidth(Cm)
+3.PetalLength(Cm)
+4.PetalWidth(Cm)
+5.Species
+All you need to do is performing Linear Regression in python on this 
+dataset taking Sepal Length as Response or dependent variable and rest
+of the variables as independent ones.
+Before performing Linear Regression please check 
+1.> whether there exists any multicollinearity in the independent 
+variables with correlation matrix and suitable scatter plots.
+2.> find the correlation between dependent variable and each 
+independent variable.
+3.> Find if there is any outlier in the variables given with suitable
+boxplots.
+Give your observed inputs.
