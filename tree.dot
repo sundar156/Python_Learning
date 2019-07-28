@@ -1,0 +1,32 @@
+digraph Tree {
+node [shape=box, style="filled", color="black"] ;
+0 [label="Contract_Two year <= 0.5\nentropy = 1.0\nsamples = 4711\nvalue = [2355.5, 2355.5]", fillcolor="#e5813900"] ;
+1 [label="Contract_One year <= 0.5\nentropy = 0.978\nsamples = 3591\nvalue = [1616.64, 2289.651]", fillcolor="#399de54b"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="InternetService_Fiber optic <= 0.5\nentropy = 0.916\nsamples = 2632\nvalue = [1034.404, 2093.987]", fillcolor="#399de581"] ;
+1 -> 2 ;
+3 [label="entropy = 0.999\nsamples = 1177\nvalue = [577.469, 618.977]", fillcolor="#399de511"] ;
+2 -> 3 ;
+4 [label="entropy = 0.789\nsamples = 1455\nvalue = [456.936, 1475.01]", fillcolor="#399de5b0"] ;
+2 -> 4 ;
+5 [label="MonthlyCharges <= 81.925\nentropy = 0.814\nsamples = 959\nvalue = [582.235, 195.665]", fillcolor="#e58139a9"] ;
+1 -> 5 ;
+6 [label="entropy = 0.56\nsamples = 619\nvalue = [399.734, 60.204]", fillcolor="#e58139d9"] ;
+5 -> 6 ;
+7 [label="entropy = 0.984\nsamples = 340\nvalue = [182.502, 135.46]", fillcolor="#e5813942"] ;
+5 -> 7 ;
+8 [label="MonthlyCharges <= 92.325\nentropy = 0.409\nsamples = 1120\nvalue = [738.86, 65.849]", fillcolor="#e58139e8"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="PaymentMethod_Electronic check <= 0.5\nentropy = 0.247\nsamples = 854\nvalue = [572.702, 24.458]", fillcolor="#e58139f4"] ;
+8 -> 9 ;
+10 [label="entropy = 0.181\nsamples = 795\nvalue = [535.929, 15.051]", fillcolor="#e58139f8"] ;
+9 -> 10 ;
+11 [label="entropy = 0.729\nsamples = 59\nvalue = [36.773, 9.407]", fillcolor="#e58139be"] ;
+9 -> 11 ;
+12 [label="TotalCharges <= 7725.125\nentropy = 0.721\nsamples = 266\nvalue = [166.158, 41.391]", fillcolor="#e58139bf"] ;
+8 -> 12 ;
+13 [label="entropy = 0.847\nsamples = 183\nvalue = [109.637, 41.391]", fillcolor="#e581399f"] ;
+12 -> 13 ;
+14 [label="entropy = 0.0\nsamples = 83\nvalue = [56.521, 0.0]", fillcolor="#e58139ff"] ;
+12 -> 14 ;
+}
